@@ -10,26 +10,28 @@ html {
 }
 
 body {
-  font-family: "Ubuntu";
-  background-color: tomato;
   height: 100%;
   width: 100%;
-}
-
-.wrapper {
-  display: grid;
+  font-family: "Ubuntu";
+  background-color: tomato;
+  display: flex;
   place-items: center;
 }
 
-h1 {
-  color: black;
-  font-size: 4em;
-  display: inline-block;
-  text-transform: capitalize;
-  font-weight: 500;
+.wrapper {
+  height: 75%;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
 }
 
-#Robot {
-  height: 50%;
-  width: 50%;
+.shadows {
+  background: antiquewhite;
+  color: goldenrod;
+  width: 25%;
+  padding: 5em;
+  position: relative;
+  box-shadow: inset 0 0 0 10px orange, inset 0 0 0 20px tomato, inset 0 0 0 30px grey, inset 0 0 5px 33px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 0 25%;
 }
