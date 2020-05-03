@@ -1,3 +1,5 @@
+$col-base: #29a0f09f
+$col-accent: #495f81
 *, ::before, ::after
     box-sizing: border-box
     margin: 0
@@ -11,22 +13,20 @@ body
     height: 100%
     width: 100%
     font-family: 'Bree Serif', serif
-    background-color: tomato
+    background-color: $col-base
 
 .container
     display: flex
     flex-direction: column
     align-items: center
     justify-content: center
-    height: 95%
+    color: $col-accent
+    height: 100%
 
 i
-    font-size: 15em
-    border-radius: 35%
-    padding: 2rem
-    margin-bottom: 1rem
+    font-size: 35vw
+    padding: 1.5rem
 h1
-    font-size: 6em
-
-h1, h3, i
-    margin: 2rem 2rem 1.5
+    font-size: 5rem
+h3
+    font-size: 3.5rem

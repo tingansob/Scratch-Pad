@@ -13,7 +13,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Bree Serif", serif;
-  background-color: tomato;
+  background-color: #29a0f09f;
 }
 
 .container {
@@ -21,20 +21,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 95%;
+  color: #495f81;
+  height: 100%;
 }
 
 i {
-  font-size: 15em;
-  border-radius: 35%;
-  padding: 2rem;
-  margin-bottom: 1rem;
+  font-size: 35vw;
+  padding: 1.5rem;
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5rem;
 }
 
-h1, h3, i {
-  margin: 2rem 2rem 1.5;
+h3 {
+  font-size: 3.5rem;
 }
