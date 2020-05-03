@@ -24,11 +24,17 @@ body {
   height: 95%;
 }
 
-#robot-box {
-  height: 50%;
-  width: 50%;
+i {
+  font-size: 15em;
+  border-radius: 35%;
+  padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 6em;
+}
+
+h1, h3, i {
+  margin: 2rem 2rem 1.5;
 }
