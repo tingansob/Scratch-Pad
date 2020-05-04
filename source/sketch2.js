@@ -3,7 +3,8 @@ function setup() {
 }
 
 function draw() {
-	background(100, 100, 0);
+	colorMode(HSB);
+	fill(255, 104, 100);
 	noStroke();
 	ellipse(40, 40, 30, 30);
 }

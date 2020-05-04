@@ -1,1 +1,1 @@
-console.log("welcome home kev");let d6=6,random=()=>Math.random();console.log(random);
+console.log("welcome home kev");let d6=6,random=o=>Math.floor(Math.random(o)+1);console.log(random);
